@@ -16,7 +16,7 @@ const ExperienceSection: React.FC = () => {
     {
       title: 'Active Member',
       organization: 'National Service Scheme (NSS)',
-      period: '2022 - Present',
+      period: '2023- Present',
       location: 'College Unit',
       description: [
         'Participated in community service initiatives aimed at developing personality through community service',
@@ -37,6 +37,20 @@ const ExperienceSection: React.FC = () => {
         'Participated in community service projects and humanitarian initiatives',
         'Collaborated with team members to organize events and awareness programs',
         'Developed communication and organizational skills through various club activities'
+      ],
+      icon: <Award size={24} />,
+      color: 'bg-yellow-600 dark:bg-yellow-500',
+    },
+    {
+      title: 'Intern',
+      organization: 'Talent lad',
+      period: 'February2025-May2025',
+      location: 'Online',
+      description: [
+        'Gained hands-on exposure to the evolving field of Artificial Intelligence during my internship at TalentLad',
+        'Focused on understanding and experimenting with Large Language Models (LLMs), prompt engineering, and AI automation tools.',
+        'Explored AI agents like n8n and worked with a variety of AI-powered tools to analyze their practical applications.',
+        'Developed foundational knowledge in LLMs, improved prompting skills, and learned to integrate AI tools for workflow automation and optimization.',
       ],
       icon: <Award size={24} />,
       color: 'bg-yellow-600 dark:bg-yellow-500',
